@@ -1,6 +1,7 @@
 0,PARTY_FAC_CODE,integer
 1,PARTY_ID,integer
-2,FACILITY_ID,string
-3,Start_date,date
-4,End_Date,integer
+2,FACILITY_ID,integer
+3,Start_Date,date
+4,End_Date,date
 5,Code,integer
+6,Descriptor,string

@@ -1,7 +1,5 @@
 import re
 import csv
-import gzip
-import uuid
 import codecs
 import argparse
 import logging
@@ -106,4 +104,3 @@ if __name__ == '__main__':
 		
   args = parser.parse_args()
   insert_data(args.instance_id, args.database_id, args.bucket_name, args.table_id, args.batchsize, args.data_file, args.format_file)
-  
