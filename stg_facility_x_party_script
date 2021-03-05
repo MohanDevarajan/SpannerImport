@@ -1,0 +1,11 @@
+gsutil mb -b on -l europe-west2 gs://rvsrdldemo/
+gcloud spanner instances create rvsrdl-demo-spanner-id --config=regional-europe-west2  --description=rvsrdl-demo-spanner --nodes=1
+gcloud spanner databases create rvsrdl_demo_database --instance=rvsrdl-demo-spanner-id --ddl='CREATE TABLE STG_FACILITY_X_PARTY (
+    PARTY_FAC_CODE INT64,
+    domain PARTY_ID INT64,
+    FACILITY_ID INT64,
+    Start_date FORMAT 'dd.mm.yyyy',
+    End_Date FORMAT 'dd.mm.yyyy',
+    Code INT64,
+    Descriptor STRING(100),
+)'
