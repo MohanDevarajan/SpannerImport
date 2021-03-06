@@ -76,5 +76,3 @@ def insert_data(request):
               )
         rowpos = rowpos + batchrows
     print('inserted {0} rows'.format(rowpos))
-    os.remove('local_file_name')
-    os.remove('local_file_format')
