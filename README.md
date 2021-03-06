@@ -1,5 +1,5 @@
 # spannerimport
-command line application that imports a csv file into a cloud spanner table
+Cloud Function that imports csv file(s) from Cloud Storage Bucket into a Cloud Spanner table(s).
 
 # Setup
 
@@ -9,7 +9,7 @@ command line application that imports a csv file into a cloud spanner table
 
 3 Clone this repository by entering
 
-    git clone https://github.com/hanknac/spannerimport.git
+    git clone https://github.com/MohanDevarajan/SpannerImport.git
 
 4 Navigate to the spannerimport directory
 
