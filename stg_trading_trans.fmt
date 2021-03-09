@@ -1,0 +1,14 @@
+0,KEY_VALUE,integer
+1,ARR_ID,integer
+2,Snapshot_DATE,date
+3,Snapshot_Date_ID,integer
+4,Limit_Value,float
+5,Limit_GBP,float
+6,Balance,float
+7,Balance_GBP,float
+8,BI_INSERT_DATE,date
+9,BI_UPDATE_DATE,date
+10,Undrawn_amount,float
+11,Undrawn_amount_GBP,float
+12,Cleared_Balance,float
+13,Cleared_Balance_GBP,float

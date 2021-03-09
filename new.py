@@ -60,6 +60,7 @@ def insert_data(instance_id, database_id, bucket_name, table_id, batchsize, data
   numcols = len(collist)
   ifile  = open(local_file_name, "r")
   reader = csv.reader(ifile,delimiter=',')
+  next(reader)
   alist = []
   irows = 0
   for row in reader:
